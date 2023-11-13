@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+#countLabel{
+    text-align: center;
+    font-size: 4rem
+}
+
+#gameDiv{
+    font-family: 'consolas', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 20rem;
+}
+#playerText{
+    color: yellowgreen;
+}
+#computerText{
+    color: blue;
+}
+#resultText{
+    color: red
+}
